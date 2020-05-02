@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias reload=". ~/.zshrc"
-alias zconfig="code ~/.zshrc"
+alias zconfig="vim ~/.zshrc"
 
 # git
 alias gs="git status"
@@ -109,6 +109,10 @@ alias gc="git commit -m"
 alias gf="git fetch"
 alias gpl="git pull"
 alias gps="git push"
+
+# projects
+alias emaf="cd ~/Developer/emapp-react-django/emapp"
+alias emab="cd ~/Developer/emapp-react-django/django-ema"
 
 # ssh
 export SSH_KEY_PATH="~/.ssh/rsa_id"
