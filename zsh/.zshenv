@@ -1,0 +1,4 @@
+# pipx / uv tools
+export PATH="$PATH:$HOME/.local/bin"
+
+[ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"

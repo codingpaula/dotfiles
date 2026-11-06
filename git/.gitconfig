@@ -1,0 +1,9 @@
+[user]
+	name = Paula Kammler
+[pull]
+	rebase = true
+
+# Machine-specific settings (e.g. user.email), not tracked in this repo.
+# Kept last so it can override anything above.
+[include]
+	path = ~/.gitconfig.local
